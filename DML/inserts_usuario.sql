@@ -28,7 +28,7 @@ INSERT INTO Usuario VALUES
 ('U027', 'Alan', 'Couto', '91965432109', 'Rua Natal', '171', '67890-123', 'Natal', '1990-09-23', 'M', 'alan.couto@email.com', 'alancouto', 'Natal', 'RN', 'Brasil', 'Predio G'),
 ('U028', 'Beatriz', 'Monteiro', '11954321098', 'Av. Atlântica', '181', '78901-234', 'Rio de Janeiro', '1993-05-05', 'F', 'beatriz.monteiro@email.com', 'beatri23', 'Rio de Janeiro', 'RJ', 'Brasil', 'Predio H'),
 ('U029', 'Caio', 'Farias', '21954321098', 'Rua do Sol', '191', '89012-345', 'Salvador', '1986-02-02', 'M', 'caio.farias@email.com', 'caiofarias', 'Salvador', 'BA', 'Brasil', 'Predio I'),
-('U030', 'Diana', 'Lacerda', '31954321098', 'Av. Abolição', '201', '90123-456', 'Fortaleza', '1994-11-11', 'F', 'diana.lacerda@email.com', 'dianalac', 'Fortaleza', 'CE', 'Brasil', 'Predio J')
+('U030', 'Diana', 'Lacerda', '31954321098', 'Av. Abolição', '201', '90123-456', 'Fortaleza', '1994-11-11', 'F', 'diana.lacerda@email.com', 'dianalac', 'Fortaleza', 'CE', 'Brasil', 'Predio J'),
 ('U031', 'Elias', 'Moraes', '41954321098', 'Rua dos Jacarandás', '301', '01234-567', 'São Paulo', '1985-04-08', 'M', 'elias.moraes@email.com', 'elias123', 'São Paulo', 'SP', 'Brasil', 'Predio A'),
 ('U032', 'Fernanda', 'Costa', '51954321098', 'Av. Brigadeiro', '302', '12345-678', 'Campinas', '1991-07-13', 'F', 'fernanda.costa@email.com', 'feco123', 'Campinas', 'SP', 'Brasil', 'Predio B'),
 ('U033', 'Guilherme', 'Sousa', '61954321098', 'Rua das Laranjeiras', '303', '23456-789', 'Belo Horizonte', '1989-12-17', 'M', 'guilherme.sousa@email.com', 'guile2024', 'Belo Horizonte', 'MG', 'Brasil', 'Predio C'),
