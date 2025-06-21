@@ -1,0 +1,22 @@
+#!/bin/bash
+cat \
+create_usuarios.sql \
+create_administrador.sql \
+create_aluno.sql \
+create_professor.sql \
+create_departamento.sql \
+create_curso.sql \
+create_curso_prerequisito.sql \
+create_disciplina.sql \
+create_disciplina_material.sql \
+create_disciplina_horario.sql \
+create_infraestrutura.sql \
+create_gestao.sql \
+create_matricula_disciplina.sql \
+create_matricula_gestao.sql \
+create_matricula_nota.sql \
+create_avaliar.sql \
+create_enviar_aviso.sql \
+create_enviar_mensagem.sql \
+create_ministrar.sql \
+> create_tables.sql

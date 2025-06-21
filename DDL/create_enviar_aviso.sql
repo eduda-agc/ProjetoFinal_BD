@@ -9,5 +9,3 @@ CREATE TABLE Enviar_Aviso (
     REFERENCES Usuario(usuario_id)
     ON DELETE CASCADE
 );
-
-
