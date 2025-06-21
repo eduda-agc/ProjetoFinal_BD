@@ -36,6 +36,11 @@ $ createdb Trab2
 $ cd DDL/
 $ psql -d Trab2 -f create_tables.sql
 ```
+Após isso, popule as tabelas:
+
+```bash
+psql -d trab2 -f inserts_tables.sql
+```
 ___________________________________________________________________
 
 ## Link do vídeo de demonstração
