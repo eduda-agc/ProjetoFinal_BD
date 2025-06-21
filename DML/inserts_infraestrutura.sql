@@ -1,0 +1,22 @@
+INSERT INTO Infraestrutura VALUES
+('C001', 'Sala 101', FALSE, TRUE, FALSE),
+('C002', 'Sala 102', FALSE, TRUE, TRUE),
+('C003', 'Sala 201', FALSE, TRUE, FALSE),
+('C004', 'Lab 01', TRUE, TRUE, FALSE),
+('C005', 'Sala 103', FALSE, TRUE, TRUE),
+('C006', 'Lab IA', TRUE, TRUE, TRUE),
+('C007', 'Sala 104', FALSE, TRUE, TRUE),
+('C008', 'Sala 105', FALSE, FALSE, TRUE),
+('C009', 'Lab CG', TRUE, TRUE, TRUE),
+('C010', 'Sala 106', FALSE, TRUE, TRUE),
+('C011', 'Lab Paralelo', TRUE, TRUE, FALSE),
+('C012', 'Lab Embarcados', TRUE, TRUE, TRUE),
+('C013', 'Lab Redes 1', TRUE, TRUE, FALSE),
+('C014', 'Sala 107', FALSE, TRUE, TRUE),
+('C015', 'Lab Quântico', TRUE, FALSE, FALSE),
+('C016', 'Sala 108', FALSE, TRUE, TRUE),
+('C017', 'Lab Visão', TRUE, TRUE, TRUE),
+('C018', 'Sala 109', FALSE, TRUE, TRUE),
+('C019', 'Lab Cloud', TRUE, TRUE, TRUE),
+('C020', 'Sala 110', FALSE, TRUE, FALSE);
+

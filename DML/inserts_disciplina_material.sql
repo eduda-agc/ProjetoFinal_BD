@@ -1,0 +1,22 @@
+INSERT INTO Disciplina_Material VALUES
+('D001', 'Livro: Fundamentos da Programação'),
+('D002', 'Slides: Algoritmos Avançados'),
+('D003', 'Apostila: Modelagem de Dados Relacionais'),
+('D004', 'Livro: Redes de Computadores - Conceitos Básicos'),
+('D005', 'Artigo: Gerenciamento de Processos em SO'),
+('D006', 'Videoaulas: Introdução a Machine Learning'),
+('D007', 'Livro: Criptografia Aplicada'),
+('D008', 'Slides: Técnicas de Análise de Requisitos'),
+('D009', 'Software: Blender para Modelagem 3D'),
+('D010', 'Artigo: Fundamentos de Big Data'),
+('D011', 'Livro: Programação Concorrente em Java'),
+('D012', 'Apostila: Sistemas Embarcados - Teoria e Prática'),
+('D013', 'Slides: Segurança em Redes Avançadas'),
+('D014', 'Videoaulas: Desenvolvimento Front-End Moderno'),
+('D015', 'Livro: Algoritmos Quânticos para Iniciantes'),
+('D016', 'Livro: Engenharia de Requisitos Moderna'),
+('D017', 'Artigo: Redes Neurais Convolucionais Aplicadas'),
+('D018', 'Slides: Processamento de Linguagem Natural'),
+('D019', 'Livro: Arquitetura de Sistemas Distribuídos'),
+('D020', 'Slides: Metodologias Ágeis para Gestão de Projetos');
+

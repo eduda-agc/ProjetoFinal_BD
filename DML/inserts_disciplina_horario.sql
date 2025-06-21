@@ -1,0 +1,22 @@
+INSERT INTO Disciplina_Horario VALUES
+('D001', 'Segunda-feira 08:00-10:00'),
+('D002', 'Segunda-feira 10:00-12:00'),
+('D003', 'Terça-feira 08:00-10:00'),
+('D004', 'Terça-feira 14:00-16:00'),
+('D005', 'Quarta-feira 10:00-12:00'),
+('D006', 'Quarta-feira 14:00-16:00'),
+('D007', 'Quinta-feira 08:00-10:00'),
+('D008', 'Quinta-feira 10:00-12:00'),
+('D009', 'Sexta-feira 08:00-10:00'),
+('D010', 'Sexta-feira 10:00-12:00'),
+('D011', 'Segunda-feira 18:00-20:00'),
+('D012', 'Terça-feira 18:00-20:00'),
+('D013', 'Quarta-feira 18:00-20:00'),
+('D014', 'Quinta-feira 18:00-20:00'),
+('D015', 'Sexta-feira 18:00-20:00'),
+('D016', 'Segunda-feira 13:00-15:00'),
+('D017', 'Terça-feira 13:00-15:00'),
+('D018', 'Quarta-feira 13:00-15:00'),
+('D019', 'Quinta-feira 13:00-15:00'),
+('D020', 'Sexta-feira 13:00-15:00');
+

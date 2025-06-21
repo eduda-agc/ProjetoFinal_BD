@@ -1,0 +1,22 @@
+INSERT INTO Disciplina VALUES 
+('D001', 'Lógica de Programação', 50, 'São Paulo', 'SP', 'Brasil', 'Predio A', 'C001'),
+('D002', 'Algoritmos Avançados', 40, 'São Paulo', 'SP', 'Brasil', 'Predio A', 'C002'),
+('D003', 'Modelagem de Dados', 45, 'Campinas', 'SP', 'Brasil', 'Predio B', 'C003'),
+('D004', 'Protocolos de Redes', 35, 'Curitiba', 'PR', 'Brasil', 'Predio D', 'C004'),
+('D005', 'Gerenciamento de Processos', 50, 'Belo Horizonte', 'MG', 'Brasil', 'Predio C', 'C005'),
+('D006', 'Machine Learning', 30, 'Recife', 'PE', 'Brasil', 'Predio F', 'C006'),
+('D007', 'Criptografia', 40, 'Natal', 'RN', 'Brasil', 'Predio G', 'C007'),
+('D008', 'Análise de Requisitos', 45, 'Porto Alegre', 'RS', 'Brasil', 'Predio E', 'C008'),
+('D009', 'Modelagem 3D', 30, 'Rio de Janeiro', 'RJ', 'Brasil', 'Predio H', 'C009'),
+('D010', 'Big Data', 35, 'Fortaleza', 'CE', 'Brasil', 'Predio J', 'C010'),
+('D011', 'Programação Concorrente', 25, 'São Paulo', 'SP', 'Brasil', 'Predio A', 'C011'),
+('D012', 'Arquitetura de Sistemas Embarcados', 20, 'Curitiba', 'PR', 'Brasil', 'Predio D', 'C012'),
+('D013', 'Segurança em Redes', 15, 'Porto Alegre', 'RS', 'Brasil', 'Predio E', 'C013'),
+('D014', 'Desenvolvimento Front-End', 50, 'Campinas', 'SP', 'Brasil', 'Predio B', 'C014'),
+('D015', 'Algoritmos Quânticos', 10, 'Rio de Janeiro', 'RJ', 'Brasil', 'Predio H', 'C015'),
+('D016', 'Engenharia de Requisitos', 50, 'Salvador', 'BA', 'Brasil', 'Predio I', 'C016'),
+('D017', 'Redes Neurais Convolucionais', 20, 'Fortaleza', 'CE', 'Brasil', 'Predio J', 'C017'),
+('D018', 'Análise de Texto', 20, 'Natal', 'RN', 'Brasil', 'Predio G', 'C018'),
+('D019', 'Arquitetura de Sistemas Distribuídos', 40, 'Recife', 'PE', 'Brasil', 'Predio F', 'C019'),
+('D020', 'Gestão Ágil de Projetos', 20, 'Belo Horizonte', 'MG', 'Brasil', 'Predio C', 'C020');
+

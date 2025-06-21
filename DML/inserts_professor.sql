@@ -1,0 +1,22 @@
+INSERT INTO Professor VALUES 
+('U003', 'Inteligência Artificial', 'Doutor'),
+('U007', 'Banco de Dados', 'Mestre'),
+('U010', 'Engenharia de Software', 'Doutor'),
+('U013', 'Redes de Computadores', 'Mestre'),
+('U016', 'Segurança da Informação', 'Doutor'),
+('U019', 'Sistemas Embarcados', 'Mestre'),
+('U022', 'Ciência de Dados', 'Pós-Doutor'),
+('U025', 'Computação Gráfica', 'Doutor'),
+('U028', 'Robótica', 'Doutor'),
+('U031', 'Inteligência Artificial', 'Mestre'),
+('U034', 'Banco de Dados', 'Doutor'),
+('U037', 'Engenharia de Software', 'Pós-Doutor'),
+('U040', 'Redes de Computadores', 'Doutor'),
+('U043', 'Segurança da Informação', 'Mestre'),
+('U046', 'Sistemas Embarcados', 'Doutor'),
+('U049', 'Ciência de Dados', 'Mestre'),
+('U052', 'Computação Gráfica', 'Doutor'),
+('U055', 'Computação Quântica', 'Pós-Doutor'),
+('U058', 'Robótica', 'Doutor'),
+('U060', 'Inteligência Artificial', 'Mestre');
+

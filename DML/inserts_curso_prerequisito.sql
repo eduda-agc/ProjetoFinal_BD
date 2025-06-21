@@ -1,0 +1,22 @@
+INSERT INTO Curso_PreRequisito VALUES 
+('C002', 'Introdução à Programação'),
+('C003', 'Introdução à Programação'),
+('C004', 'Redes de Computadores Básico'),
+('C005', 'Introdução à Programação'),
+('C006', 'Estruturas de Dados'),
+('C006', 'Matemática Discreta'),
+('C007', 'Redes de Computadores'),
+('C007', 'Sistemas Operacionais'),
+('C008', 'Estruturas de Dados'),
+('C009', 'Álgebra Linear'),
+('C009', 'Programação Orientada a Objetos'),
+('C010', 'Banco de Dados I'),
+('C010', 'Estatística Aplicada'),
+('C011', 'Estruturas de Dados'),
+('C012', 'Sistemas Operacionais'),
+('C012', 'Arquitetura de Computadores'),
+('C013', 'Redes de Computadores'),
+('C015', 'Álgebra Linear'),
+('C017', 'Inteligência Artificial'),
+('C018', 'Inteligência Artificial');
+

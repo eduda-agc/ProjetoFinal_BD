@@ -1,0 +1,22 @@
+INSERT INTO Enviar_Mensagem VALUES
+('M001', 'Oi, você pode me ajudar com a tarefa?', '2025-06-15 09:30:00', 'U001', 'U002'),
+('M002', 'Claro! Em que parte você está com dificuldade?', '2025-06-15 09:32:00', 'U002', 'U001'),
+('M003', 'Não entendo bem os algoritmos recursivos.', '2025-06-15 09:35:00', 'U001', 'U002'),
+('M004', 'Vamos marcar um estudo amanhã?', '2025-06-16 14:00:00', 'U003', 'U004'),
+('M005', 'Pode ser! A que horas?', '2025-06-16 14:05:00', 'U004', 'U003'),
+('M006', 'Às 15h no laboratório de informática.', '2025-06-16 14:10:00', 'U003', 'U004'),
+('M007', 'Recebeu o material do professor?', '2025-06-17 11:00:00', 'U005', 'U006'),
+('M008', 'Sim, estou revisando agora.', '2025-06-17 11:05:00', 'U006', 'U005'),
+('M009', 'Não esqueça da reunião de grupo hoje.', '2025-06-18 08:00:00', 'U007', 'U008'),
+('M010', 'Obrigado pelo aviso!', '2025-06-18 08:05:00', 'U008', 'U007'),
+('M011', 'Vamos entregar o projeto na próxima semana.', '2025-06-19 15:00:00', 'U009', 'U010'),
+('M012', 'Estou terminando a parte de documentação.', '2025-06-19 15:30:00', 'U010', 'U009'),
+('M013', 'Você vai participar da palestra?', '2025-06-20 10:00:00', 'U011', 'U012'),
+('M014', 'Sim, achei o tema muito interessante.', '2025-06-20 10:05:00', 'U012', 'U011'),
+('M015', 'Podemos trocar os códigos depois?', '2025-06-21 13:00:00', 'U013', 'U014'),
+('M016', 'Claro, envia por email.', '2025-06-21 13:05:00', 'U014', 'U013'),
+('M017', 'Alguém sabe quando sai a prova?', '2025-06-22 09:00:00', 'U015', 'U016'),
+('M018', 'Ainda não anunciaram, mas deve ser em julho.', '2025-06-22 09:15:00', 'U016', 'U015'),
+('M019', 'Obrigado pela ajuda com o código!', '2025-06-23 16:00:00', 'U017', 'U018'),
+('M020', 'De nada! Qualquer coisa, me avise.', '2025-06-23 16:05:00', 'U018', 'U017');
+

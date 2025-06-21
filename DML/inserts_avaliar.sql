@@ -1,0 +1,22 @@
+INSERT INTO Avaliar VALUES 
+('U001', 'U003', 'Ótimo professor, explica muito bem.', 4.75, 4.80, 4.90, 4.70),
+('U002', 'U007', 'Material excelente, mas aulas um pouco rápidas.', 4.50, 4.90, 4.60, 4.40),
+('U004', 'U010', 'Super didático e atencioso.', 4.90, 4.80, 4.95, 4.85),
+('U005', 'U013', 'Explica bem, mas poderia melhorar os exemplos.', 4.20, 4.00, 4.30, 4.10),
+('U006', 'U016', 'Excelente domínio do conteúdo.', 4.85, 4.70, 4.90, 4.60),
+('U008', 'U019', 'Faltam mais exemplos práticos nas aulas.', 4.10, 3.90, 4.00, 4.20),
+('U009', 'U022', 'Aulas interativas e com muitos desafios.', 4.80, 4.85, 4.75, 4.65),
+('U011', 'U025', 'Ótima professora, muito paciente.', 4.70, 4.60, 4.80, 4.50),
+('U012', 'U028', 'Incrível! Aulas bem estruturadas.', 4.95, 5.00, 4.90, 4.80),
+('U014', 'U031', 'Professor bem humorado, mas disperso às vezes.', 4.00, 3.80, 4.10, 3.90),
+('U015', 'U034', 'Foco total nos conteúdos mais importantes.', 4.65, 4.60, 4.75, 4.50),
+('U017', 'U037', 'As atividades práticas foram muito boas.', 4.50, 4.55, 4.70, 4.60),
+('U018', 'U040', 'Poderia atualizar os materiais.', 3.95, 3.80, 4.00, 4.10),
+('U020', 'U043', 'Muito dedicado e comprometido.', 4.85, 4.90, 4.95, 4.80),
+('U021', 'U046', 'Precisa melhorar a interação com a turma.', 3.80, 3.75, 3.90, 4.00),
+('U023', 'U049', 'Ótimas dinâmicas e conteúdos atuais.', 4.70, 4.85, 4.80, 4.60),
+('U024', 'U052', 'Explica muito bem, mas fala rápido.', 4.40, 4.50, 4.30, 4.20),
+('U026', 'U055', 'Excelente domínio, porém pouco acessível.', 4.25, 4.10, 4.00, 4.30),
+('U027', 'U058', 'Professor empolgado e muito preparado.', 4.90, 4.95, 5.00, 4.85),
+('U029', 'U060', 'Ótima didática, ambiente confortável.', 4.60, 4.70, 4.65, 4.55);
+

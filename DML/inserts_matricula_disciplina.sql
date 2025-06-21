@@ -1,0 +1,22 @@
+INSERT INTO Matricula_Disciplina VALUES
+('U021', 'D001', '2025-02-10', 'Matriculado', 0.00, TRUE, FALSE),
+('U022', 'D002', '2025-02-11', 'Matriculado', 10.00, TRUE, FALSE),
+('U023', 'D003', '2025-02-12', 'Concluído', 0.00, TRUE, FALSE),
+('U024', 'D004', '2025-02-13', 'Cancelado', 0.00, FALSE, TRUE),
+('U025', 'D005', '2025-02-14', 'Matriculado', 20.00, TRUE, FALSE),
+('U026', 'D006', '2025-02-15', 'Matriculado', 0.00, TRUE, FALSE),
+('U027', 'D007', '2025-02-16', 'Pendente', 0.00, FALSE, FALSE),
+('U028', 'D008', '2025-02-17', 'Concluído', 15.00, TRUE, FALSE),
+('U029', 'D009', '2025-02-18', 'Matriculado', 0.00, TRUE, FALSE),
+('U030', 'D010', '2025-02-19', 'Matriculado', 25.00, TRUE, FALSE),
+('U031', 'D011', '2025-02-20', 'Matriculado', 0.00, TRUE, FALSE),
+('U032', 'D012', '2025-02-21', 'Cancelado', 0.00, FALSE, TRUE),
+('U033', 'D013', '2025-02-22', 'Matriculado', 0.00, TRUE, FALSE),
+('U034', 'D014', '2025-02-23', 'Concluído', 50.00, TRUE, FALSE),
+('U035', 'D015', '2025-02-24', 'Matriculado', 0.00, TRUE, FALSE),
+('U036', 'D016', '2025-02-25', 'Matriculado', 10.00, TRUE, FALSE),
+('U037', 'D017', '2025-02-26', 'Matriculado', 0.00, TRUE, FALSE),
+('U038', 'D018', '2025-02-27', 'Pendente', 0.00, FALSE, FALSE),
+('U039', 'D019', '2025-02-28', 'Matriculado', 30.00, TRUE, FALSE),
+('U040', 'D020', '2025-03-01', 'Concluído', 0.00, TRUE, FALSE);
+

@@ -1,0 +1,22 @@
+INSERT INTO Departamento VALUES 
+('DCC', 'Departamento de Ciência da Computação', 'U003'),
+('DES', 'Departamento de Engenharia de Software', 'U007'),
+('DSI', 'Departamento de Sistemas de Informação', 'U010'),
+('RED', 'Departamento de Redes de Computadores', 'U013'),
+('ROB', 'Departamento de Robótica', 'U016'),
+('SEG', 'Departamento de Segurança da Informação', 'U019'),
+('DAD', 'Departamento de Ciência de Dados', 'U022'),
+('CGR', 'Departamento de Computação Gráfica', 'U025'),
+('DQU', 'Departamento de Computação Quântica', 'U028'),
+('INF', 'Departamento de Infraestrutura e Sistemas', 'U031'),
+('IA',  'Departamento de Inteligência Artificial', 'U034'),
+('SOF', 'Departamento de Software e Arquitetura', 'U037'),
+('SIS', 'Departamento de Sistemas', 'U040'),
+('IOT', 'Departamento de Internet das Coisas', 'U043'),
+('SEG2', 'Departamento de Segurança Avançada', 'U046'),
+('BIO', 'Departamento de Computação Bioinspirada', 'U049'),
+('DME', 'Departamento de Métodos Estatísticos', 'U052'),
+('DLC', 'Departamento de Linguagens Computacionais', 'U055'),
+('HPC', 'Departamento de High Performance Computing', 'U058'),
+('ML',  'Departamento de Machine Learning', 'U060');
+

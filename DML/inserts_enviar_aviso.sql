@@ -1,0 +1,22 @@
+INSERT INTO Enviar_Aviso VALUES
+('A001', 'Manutenção programada no sistema dia 25/06.', '2025-06-15 10:00:00', 'U030', 'U001'),
+('A002', 'Atualização dos dados cadastrais requerida.', '2025-06-15 11:00:00', 'U032', 'U002'),
+('A003', 'Nova versão do portal acadêmico disponível.', '2025-06-16 09:30:00', 'U033', 'U003'),
+('A004', 'Prazos para matrícula prorrogados até 30/06.', '2025-06-16 14:00:00', 'U035', 'U004'),
+('A005', 'Curso de reforço em Matemática às terças.', '2025-06-17 08:00:00', 'U036', 'U005'),
+('A006', 'Sistema ficará indisponível no fim de semana.', '2025-06-17 18:00:00', 'U038', 'U006'),
+('A007', 'Nova biblioteca digital liberada para alunos.', '2025-06-18 13:00:00', 'U039', 'U007'),
+('A008', 'Palestra sobre inteligência artificial dia 28/06.', '2025-06-18 15:00:00', 'U041', 'U008'),
+('A009', 'Entrega dos projetos finais prorrogada.', '2025-06-19 10:00:00', 'U042', 'U009'),
+('A010', 'Inscrições abertas para monitorias.', '2025-06-19 12:00:00', 'U044', 'U010'),
+('A011', 'Aulas suspensas no feriado de 07/09.', '2025-06-20 09:00:00', 'U045', 'U011'),
+('A012', 'Reunião com coordenação na próxima sexta.', '2025-06-20 11:00:00', 'U047', 'U012'),
+('A013', 'Novas turmas de pós-graduação abertas.', '2025-06-21 08:30:00', 'U048', 'U013'),
+('A014', 'Atualização do regulamento acadêmico.', '2025-06-21 14:00:00', 'U050', 'U014'),
+('A015', 'Cadastro para estágios até dia 30/06.', '2025-06-22 10:00:00', 'U051', 'U015'),
+('A016', 'Entrega de documentos para bolsa prorrogada.', '2025-06-22 16:00:00', 'U053', 'U016'),
+('A017', 'Teste de software em ambiente de produção.', '2025-06-23 09:00:00', 'U054', 'U017'),
+('A018', 'Novas normas de segurança implementadas.', '2025-06-23 13:00:00', 'U056', 'U018'),
+('A019', 'Acesso ao laboratório temporariamente restrito.', '2025-06-24 11:00:00', 'U057', 'U019'),
+('A020', 'Recomendações para provas finais disponíveis.', '2025-06-24 15:00:00', 'U059', 'U020');
+

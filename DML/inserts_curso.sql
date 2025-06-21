@@ -1,0 +1,22 @@
+INSERT INTO Curso VALUES 
+('C001', 'Introdução à Programação', 'Graduação', 60, 50, 75.00, 10.00, 'Fundamentos de algoritmos, lógica e programação.', 'São Paulo', 'SP', 'Brasil', 'Predio A', 'DCC'),
+('C002', 'Estruturas de Dados', 'Graduação', 60, 40, 75.00, 10.00, 'Listas, pilhas, filas, árvores, grafos e suas aplicações.', 'São Paulo', 'SP', 'Brasil', 'Predio A', 'DCC'),
+('C003', 'Banco de Dados I', 'Graduação', 60, 50, 75.00, 10.00, 'Modelagem de dados, SQL, bancos relacionais.', 'Campinas', 'SP', 'Brasil', 'Predio B', 'DSI'),
+('C004', 'Redes de Computadores', 'Graduação', 60, 45, 75.00, 10.00, 'Arquitetura de redes, protocolos, internet.', 'Curitiba', 'PR', 'Brasil', 'Predio D', 'RED'),
+('C005', 'Sistemas Operacionais', 'Graduação', 60, 50, 75.00, 10.00, 'Gerenciamento de processos, memória, I/O e arquivos.', 'Belo Horizonte', 'MG', 'Brasil', 'Predio C', 'DCC'),
+('C006', 'Inteligência Artificial', 'Graduação', 60, 35, 75.00, 10.00, 'Técnicas de IA, machine learning, redes neurais.', 'Recife', 'PE', 'Brasil', 'Predio F', 'DCC'),
+('C007', 'Segurança da Informação', 'Graduação', 60, 40, 75.00, 10.00, 'Criptografia, segurança em redes e sistemas.', 'Natal', 'RN', 'Brasil', 'Predio G', 'SEG'),
+('C008', 'Engenharia de Software', 'Graduação', 60, 45, 75.00, 10.00, 'Processo de desenvolvimento, requisitos, testes.', 'Porto Alegre', 'RS', 'Brasil', 'Predio E', 'DES'),
+('C009', 'Computação Gráfica', 'Graduação', 60, 30, 75.00, 10.00, 'Modelagem 3D, renderização, gráficos computacionais.', 'Rio de Janeiro', 'RJ', 'Brasil', 'Predio H', 'CGR'),
+('C010', 'Ciência de Dados', 'Graduação', 60, 35, 75.00, 10.00, 'Análise de dados, estatística, aprendizado de máquina.', 'Fortaleza', 'CE', 'Brasil', 'Predio J', 'DAD'),
+('C011', 'Programação Paralela', 'Pós-Graduação', 45, 25, 75.00, 10.00, 'Computação paralela, multithreading e distribuída.', 'São Paulo', 'SP', 'Brasil', 'Predio A', 'DCC'),
+('C012', 'Sistemas Embarcados', 'Pós-Graduação', 45, 20, 75.00, 10.00, 'Projetos de hardware e software embarcado.', 'Curitiba', 'PR', 'Brasil', 'Predio D', 'ROB'),
+('C013', 'Redes Avançadas', 'Pós-Graduação', 45, 15, 80.00, 10.00, 'Redes definidas por software, IPv6, segurança.', 'Porto Alegre', 'RS', 'Brasil', 'Predio E', 'RED'),
+('C014', 'Desenvolvimento Web', 'Graduação', 60, 50, 75.00, 10.00, 'HTML, CSS, JavaScript, back-end e frameworks.', 'Campinas', 'SP', 'Brasil', 'Predio B', 'DES'),
+('C015', 'Computação Quântica', 'Pós-Graduação', 30, 10, 85.00, 10.00, 'Fundamentos e algoritmos de computação quântica.', 'Rio de Janeiro', 'RJ', 'Brasil', 'Predio H', 'DQU'),
+('C016', 'Análise e Projeto de Sistemas', 'Graduação', 60, 50, 75.00, 10.00, 'Modelagem, UML, processos de desenvolvimento.', 'Salvador', 'BA', 'Brasil', 'Predio I', 'DES'),
+('C017', 'Visão Computacional', 'Pós-Graduação', 45, 20, 75.00, 10.00, 'Processamento de imagens, reconhecimento de padrões.', 'Fortaleza', 'CE', 'Brasil', 'Predio J', 'CGR'),
+('C018', 'Processamento de Linguagem Natural', 'Pós-Graduação', 45, 20, 75.00, 10.00, 'NLP, análise de texto, modelos de linguagem.', 'Natal', 'RN', 'Brasil', 'Predio G', 'DAD'),
+('C019', 'Computação na Nuvem', 'Graduação', 60, 40, 75.00, 10.00, 'Cloud computing, arquitetura e serviços.', 'Recife', 'PE', 'Brasil', 'Predio F', 'INF'),
+('C020', 'Gerenciamento de Projetos de Software', 'Pós-Graduação', 45, 20, 75.00, 10.00, 'Metodologias ágeis, Scrum, Kanban, PMBOK.', 'Belo Horizonte', 'MG', 'Brasil', 'Predio C', 'DES');
+
