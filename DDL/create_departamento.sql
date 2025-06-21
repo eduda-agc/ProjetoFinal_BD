@@ -1,6 +1,6 @@
 CREATE TABLE Departamento (
   codigo          VARCHAR(10)   PRIMARY KEY,
-  nome            VARCHAR(100)  NOT NULL,
-  chefe_id        INTEGER       NOT NULL
+  nome            VARCHAR(50)  NOT NULL,
+  chefe_id        VARCHAR(10)       NOT NULL
     REFERENCES Professor(usuario_id)
 );

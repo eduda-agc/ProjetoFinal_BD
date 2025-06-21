@@ -1,8 +1,6 @@
 CREATE TABLE Disciplina (
   codigo            VARCHAR(10)   PRIMARY KEY,
-  nome              VARCHAR(100)  NOT NULL,
-  aulas_semanais    SMALLINT      NOT NULL,
-  material_didatico TEXT,
+  nome              VARCHAR(50)  NOT NULL,
   limite_vagas      INTEGER       NOT NULL,
   cidade_unidade    VARCHAR(50),
   estado_unidade    VARCHAR(50),

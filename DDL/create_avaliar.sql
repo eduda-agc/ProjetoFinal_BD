@@ -1,8 +1,8 @@
 CREATE TABLE Avaliar (
-  aluno_id          INTEGER     NOT NULL
+  aluno_id          VARCHAR(10)   NOT NULL
     REFERENCES Aluno(usuario_id)
     ON DELETE CASCADE,
-  professor_id      INTEGER     NOT NULL
+  professor_id      VARCHAR(10)   NOT NULL
     REFERENCES Professor(usuario_id)
     ON DELETE CASCADE,
   comentario        TEXT,
