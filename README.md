@@ -50,7 +50,7 @@ entraram em um ano específico. Para executar basta rodar o script no terminal:
 ```bash
 psql -d trab2 -f lista_alunos.sql
 ```
-O resultado deve retornar uma tabela contendo o id, o curso e o ano de igresso do aluno
+O resultado deve retornar uma tabela contendo o id, o curso e o ano de ingresso do aluno
 
 ___________________________________________________________________
 
