@@ -12,6 +12,11 @@ ___________________________________________________________________
 ```
 sudo apt update && sudo apt install postgresql postgresql-contrib
 ```
+- Serviço do PostgrSQL ativo, se não estiver:
+```
+sudo systemctl start postgresql
+sudo systemctl enable postgresql
+```
 ___________________________________________________________________
 ## Estrutura do Repositório
 /DDL : comporta os scripts de definição de esquema (CREATE TABLE)
@@ -29,20 +34,24 @@ ___________________________________________________________________
 ## Como executar os Scripts
 
 ### Como rodar (Assumindo instalacao do PostgresSQL):
-
-Primeiramente crie o banco e as tabelas:
+Acesse o usuário postgres
+```
+sudo -i -u postgres
+```
+Crie o banco e as tabelas:
 ```bash
  createdb Trab2
  cd DDL/
  psql -d Trab2 -f create_tables.sql
 ```
 Após isso, popule as tabelas:
-
-```bash
+```
 psql -d trab2 -f inserts_tables.sql
 ```
 
 #### Queries - Exercício 6
+As explicações dos seguintes códigos e suas lógicas estão presentes no pdf entregue do trabalho. 
+
 ##### 6.1 Lista todos os alunos de um determinado curso que entraram em um ano específico
 ```bash
 psql -d trab2 -f lista_alunos.sql
