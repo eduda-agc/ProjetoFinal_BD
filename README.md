@@ -42,14 +42,22 @@ Após isso, popule as tabelas:
 psql -d trab2 -f inserts_tables.sql
 ```
 
-Sobre as Queries:
-
-A querie lista_alunos.sql lista todos os alunos de um determinado curso que
-entraram em um ano específico. Para executar basta rodar o script no terminal:
-
+#### Queries - Exercício 6
+##### 6.1 Lista todos os alunos de um determinado curso que entraram em um ano específico
 ```bash
 psql -d trab2 -f lista_alunos.sql
 ```
+##### 6.2 Quais disciplinas ainda não têm professor atribuído? 
+
+##### 6.3 Quais professores do departamento DCC e em quais disciplinas eles estão ministrando? 
+
+##### 6.4 Top 5 professores mais bem avaliados
+
+##### 6.5 Quais alunos estão matriculados na disciplina D006 entre 1/02/2025 e 31/05/2025?
+
+##### 6.6 Qual é a média geral das notas do aluno U025 em todas as disciplinas? 
+
+##### 6.7 Para cada curso, qual o número de vagas restantes?
 O resultado deve retornar uma tabela contendo o id, o curso e o ano de ingresso do aluno
 
 ___________________________________________________________________
