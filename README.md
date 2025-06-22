@@ -41,6 +41,24 @@ Após isso, popule as tabelas:
 ```bash
 psql -d trab2 -f inserts_tables.sql
 ```
+
+Sobre as Queries:
+
+A querie lista_alunos.sql lista todos os alunos de um determinado curso que
+entraram em um ano específico. Para executar basta rodar o script no terminal:
+
+Primeiramente crie o banco e as tabelas:
+```bash
+psql -d trab2 -f lista_alunos.sql
+```
+O resultado deve retornar:
+
+ ID do Aluno |         Curso         | Ano de Ingresso 
+-------------+-----------------------+-----------------
+ U001        | Ciência da Computação |            2022
+ U012        | Ciência da Computação |            2022
+
+
 ___________________________________________________________________
 
 ## Link do vídeo de demonstração
