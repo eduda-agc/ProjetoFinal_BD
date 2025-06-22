@@ -32,9 +32,9 @@ ___________________________________________________________________
 
 Primeiramente crie o banco e as tabelas:
 ```bash
-$ createdb Trab2
-$ cd DDL/
-$ psql -d Trab2 -f create_tables.sql
+ createdb Trab2
+ cd DDL/
+ psql -d Trab2 -f create_tables.sql
 ```
 Após isso, popule as tabelas:
 
