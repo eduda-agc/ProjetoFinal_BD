@@ -55,7 +55,7 @@ O resultado deve retornar:
 
 ID do Aluno  | Curso                 | Ano de Ingresso
 
--------------+-----------------------+-----------------
+-------------+----------------------+-----------------
 
  U001        | Ciência da Computação |            2022
  
