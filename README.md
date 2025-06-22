@@ -28,7 +28,7 @@ Cada tabela com seu próprio script com o modelo: inserts_nome_da_tabela.sql
 ___________________________________________________________________
 ## Como executar os Scripts
 
-###Como rodar (Assumindo instalacao do PostgresSQL):
+### Como rodar (Assumindo instalacao do PostgresSQL):
 
 Primeiramente crie o banco e as tabelas:
 ```bash
