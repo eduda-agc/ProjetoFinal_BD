@@ -3,5 +3,4 @@ JOIN  Usuario U  ON P.usuario_id = U.usuario_id
 JOIN  Ministrar M  ON P.usuario_id = M.professor_id
 JOIN  Disciplina D  ON M.disciplina_id = D.codigo
 JOIN  Curso C  ON D.codigo_curso = C.codigo
-WHERE  C.codigo_departamento = 'DCC';
 
