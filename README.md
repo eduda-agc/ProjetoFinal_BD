@@ -46,7 +46,7 @@ Crie o banco e as tabelas:
 ```
 Após isso, popule as tabelas:
 ```
-psql -d trab2 -f inserts_tables.sql
+psql -d Trab2 -f inserts_tables.sql
 ```
 
 #### Queries - Exercício 6
@@ -54,34 +54,38 @@ As explicações dos seguintes códigos e suas lógicas estão presentes no pdf 
 
 ##### 6.1 Lista todos os alunos de um determinado curso que entraram em um ano específico
 ```bash
-psql -d trab2 -f lista_alunos.sql
+psql -d Trab2 -f lista_alunos.sql
 ```
-Resultado: uma tabela contendo o id, o curso e o ano de ingresso do aluno
 
 ##### 6.2 Quais disciplinas ainda não têm professor atribuído? 
 ```
+psql -d Trab2 -f disciplina_sem_prof.sql
 ```
-Resultado:
 ##### 6.3 Quais professores do departamento DCC e em quais disciplinas eles estão ministrando? 
 ```
+psql -d Trab2 -f profs_e_suas_disciplinas.sql
 ```
-Resultado:
+
 ##### 6.4 Top 5 professores mais bem avaliados
 ```
+psql -d Trab2 -f top5_profs.sql
 ```
-Resultado:
+
 ##### 6.5 Quais alunos estão matriculados na disciplina D006 entre 1/02/2025 e 31/05/2025?
 ```
+psql -d Trab2 -f matricula_em_data.sql
 ```
-Resultado:
+
 ##### 6.6 Qual é a média geral das notas do aluno U025 em todas as disciplinas? 
 ```
+psql -d Trab2 -f media_aluno.sql
 ```
-Resultado:
-##### 6.7 Para cada curso, qual o número de vagas restantes?
+
+##### 6.7 Qual o curso e departamento de cada disciplina? 
 ```
+psql -d Trab2 -f curso_depart_disc.sql
 ```
-Resultado:
+
 ___________________________________________________________________
 
 ## Link do vídeo de demonstração
