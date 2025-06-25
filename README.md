@@ -89,4 +89,4 @@ psql -d Trab2 -f curso_depart_disc.sql
 ___________________________________________________________________
 
 ## Link do vídeo de demonstração
-[9) Execução dos exercícios 6 ao 8](coloque o link aqui)
+[9) Execução dos exercícios 6 ao 8](https://youtu.be/-HPLNUt1INI)
