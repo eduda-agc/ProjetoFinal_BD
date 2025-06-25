@@ -28,7 +28,7 @@ INSERT INTO Usuario VALUES
 ('U027', 'Alan', 'Couto', '91965432109', 'Rua Natal', '171', '67890-123', 'Natal', '1990-09-23', 'M', 'alan.couto@email.com', 'alancouto', 'Natal', 'RN', 'Brasil', 'Predio G'),
 ('U028', 'Beatriz', 'Monteiro', '11954321098', 'Av. Atlântica', '181', '78901-234', 'Rio de Janeiro', '1993-05-05', 'F', 'beatriz.monteiro@email.com', 'beatri23', 'Rio de Janeiro', 'RJ', 'Brasil', 'Predio H'),
 ('U029', 'Caio', 'Farias', '21954321098', 'Rua do Sol', '191', '89012-345', 'Salvador', '1986-02-02', 'M', 'caio.farias@email.com', 'caiofarias', 'Salvador', 'BA', 'Brasil', 'Predio I'),
-('U030', 'Diana', 'Lacerda', '31954321098', 'Av. Abolição', '201', '90123-456', 'Fortaleza', '1994-11-11', 'F', 'diana.lacerda@email.com', 'dianalac', 'Fortaleza', 'CE', 'Brasil', 'Predio J')
+('U030', 'Diana', 'Lacerda', '31954321098', 'Av. Abolição', '201', '90123-456', 'Fortaleza', '1994-11-11', 'F', 'diana.lacerda@email.com', 'dianalac', 'Fortaleza', 'CE', 'Brasil', 'Predio J'),
 ('U031', 'Elias', 'Moraes', '41954321098', 'Rua dos Jacarandás', '301', '01234-567', 'São Paulo', '1985-04-08', 'M', 'elias.moraes@email.com', 'elias123', 'São Paulo', 'SP', 'Brasil', 'Predio A'),
 ('U032', 'Fernanda', 'Costa', '51954321098', 'Av. Brigadeiro', '302', '12345-678', 'Campinas', '1991-07-13', 'F', 'fernanda.costa@email.com', 'feco123', 'Campinas', 'SP', 'Brasil', 'Predio B'),
 ('U033', 'Guilherme', 'Sousa', '61954321098', 'Rua das Laranjeiras', '303', '23456-789', 'Belo Horizonte', '1989-12-17', 'M', 'guilherme.sousa@email.com', 'guile2024', 'Belo Horizonte', 'MG', 'Brasil', 'Predio C'),
@@ -83,7 +83,6 @@ INSERT INTO Administrador VALUES
 ('U057'),
 ('U059');
 
-
 INSERT INTO Aluno VALUES 
 ('U001', 'Ciência da Computação', 2022),
 ('U002', 'Engenharia de Computação', 2021),
@@ -106,28 +105,28 @@ INSERT INTO Aluno VALUES
 ('U027', 'Sistemas de Informação', 2023),
 ('U029', 'Engenharia de Software', 2021);
 
+INSERT INTO Professor VALUES 
+('U003', 'Inteligência Artificial', 'Doutor'),
+('U007', 'Banco de Dados', 'Mestre'),
+('U010', 'Engenharia de Software', 'Doutor'),
+('U013', 'Redes de Computadores', 'Mestre'),
+('U016', 'Segurança da Informação', 'Doutor'),
+('U019', 'Sistemas Embarcados', 'Mestre'),
+('U022', 'Ciência de Dados', 'Pós-Doutor'),
+('U025', 'Computação Gráfica', 'Doutor'),
+('U028', 'Robótica', 'Doutor'),
+('U031', 'Inteligência Artificial', 'Mestre'),
+('U034', 'Banco de Dados', 'Doutor'),
+('U037', 'Engenharia de Software', 'Pós-Doutor'),
+('U040', 'Redes de Computadores', 'Doutor'),
+('U043', 'Segurança da Informação', 'Mestre'),
+('U046', 'Sistemas Embarcados', 'Doutor'),
+('U049', 'Ciência de Dados', 'Mestre'),
+('U052', 'Computação Gráfica', 'Doutor'),
+('U055', 'Computação Quântica', 'Pós-Doutor'),
+('U058', 'Robótica', 'Doutor'),
+('U060', 'Inteligência Artificial', 'Mestre');
 
-INSERT INTO Aluno VALUES 
-('U001', 'Ciência da Computação', 2022),
-('U002', 'Engenharia de Computação', 2021),
-('U004', 'Sistemas de Informação', 2023),
-('U005', 'Engenharia de Software', 2020),
-('U006', 'Análise e Desenvolvimento de Sistemas', 2022),
-('U008', 'Redes de Computadores', 2021),
-('U009', 'Ciência de Dados', 2023),
-('U011', 'Inteligência Artificial', 2020),
-('U012', 'Ciência da Computação', 2022),
-('U014', 'Engenharia de Computação', 2021),
-('U015', 'Sistemas de Informação', 2023),
-('U017', 'Engenharia de Software', 2020),
-('U018', 'Análise e Desenvolvimento de Sistemas', 2021),
-('U020', 'Redes de Computadores', 2022),
-('U021', 'Ciência de Dados', 2023),
-('U023', 'Inteligência Artificial', 2021),
-('U024', 'Ciência da Computação', 2020),
-('U026', 'Engenharia de Computação', 2022),
-('U027', 'Sistemas de Informação', 2023),
-('U029', 'Engenharia de Software', 2021);
 
 
 INSERT INTO Avaliar VALUES 
@@ -152,6 +151,27 @@ INSERT INTO Avaliar VALUES
 ('U027', 'U058', 'Professor empolgado e muito preparado.', 4.90, 4.95, 5.00, 4.85),
 ('U029', 'U060', 'Ótima didática, ambiente confortável.', 4.60, 4.70, 4.65, 4.55);
 
+INSERT INTO Departamento VALUES 
+('DCC', 'Departamento de Ciência da Computação', 'U003'),
+('DES', 'Departamento de Engenharia de Software', 'U007'),
+('DSI', 'Departamento de Sistemas de Informação', 'U010'),
+('RED', 'Departamento de Redes de Computadores', 'U013'),
+('ROB', 'Departamento de Robótica', 'U016'),
+('SEG', 'Departamento de Segurança da Informação', 'U019'),
+('DAD', 'Departamento de Ciência de Dados', 'U022'),
+('CGR', 'Departamento de Computação Gráfica', 'U025'),
+('DQU', 'Departamento de Computação Quântica', 'U028'),
+('INF', 'Departamento de Infraestrutura e Sistemas', 'U031'),
+('IA',  'Departamento de Inteligência Artificial', 'U034'),
+('SOF', 'Departamento de Software e Arquitetura', 'U037'),
+('SIS', 'Departamento de Sistemas', 'U040'),
+('IOT', 'Departamento de Internet das Coisas', 'U043'),
+('SEG2', 'Departamento de Segurança Avançada', 'U046'),
+('BIO', 'Departamento de Computação Bioinspirada', 'U049'),
+('DME', 'Departamento de Métodos Estatísticos', 'U052'),
+('DLC', 'Departamento de Linguagens Computacionais', 'U055'),
+('HPC', 'Departamento de High Performance Computing', 'U058'),
+('ML',  'Departamento de Machine Learning', 'U060');
 
 INSERT INTO Curso VALUES 
 ('C001', 'Introdução à Programação', 'Graduação', 60, 50, 75.00, 10.00, 'Fundamentos de algoritmos, lógica e programação.', 'São Paulo', 'SP', 'Brasil', 'Predio A', 'DCC'),
@@ -199,28 +219,6 @@ INSERT INTO Curso_PreRequisito VALUES
 ('C018', 'Inteligência Artificial');
 
 
-INSERT INTO Departamento VALUES 
-('DCC', 'Departamento de Ciência da Computação', 'U003'),
-('DES', 'Departamento de Engenharia de Software', 'U007'),
-('DSI', 'Departamento de Sistemas de Informação', 'U010'),
-('RED', 'Departamento de Redes de Computadores', 'U013'),
-('ROB', 'Departamento de Robótica', 'U016'),
-('SEG', 'Departamento de Segurança da Informação', 'U019'),
-('DAD', 'Departamento de Ciência de Dados', 'U022'),
-('CGR', 'Departamento de Computação Gráfica', 'U025'),
-('DQU', 'Departamento de Computação Quântica', 'U028'),
-('INF', 'Departamento de Infraestrutura e Sistemas', 'U031'),
-('IA',  'Departamento de Inteligência Artificial', 'U034'),
-('SOF', 'Departamento de Software e Arquitetura', 'U037'),
-('SIS', 'Departamento de Sistemas', 'U040'),
-('IOT', 'Departamento de Internet das Coisas', 'U043'),
-('SEG2', 'Departamento de Segurança Avançada', 'U046'),
-('BIO', 'Departamento de Computação Bioinspirada', 'U049'),
-('DME', 'Departamento de Métodos Estatísticos', 'U052'),
-('DLC', 'Departamento de Linguagens Computacionais', 'U055'),
-('HPC', 'Departamento de High Performance Computing', 'U058'),
-('ML',  'Departamento de Machine Learning', 'U060');
-
 
 INSERT INTO Disciplina VALUES 
 ('D001', 'Lógica de Programação', 50, 'São Paulo', 'SP', 'Brasil', 'Predio A', 'C001'),
@@ -243,6 +241,28 @@ INSERT INTO Disciplina VALUES
 ('D018', 'Análise de Texto', 20, 'Natal', 'RN', 'Brasil', 'Predio G', 'C018'),
 ('D019', 'Arquitetura de Sistemas Distribuídos', 40, 'Recife', 'PE', 'Brasil', 'Predio F', 'C019'),
 ('D020', 'Gestão Ágil de Projetos', 20, 'Belo Horizonte', 'MG', 'Brasil', 'Predio C', 'C020');
+
+INSERT INTO Matricula_Disciplina VALUES
+('U021', 'D001', '2025-02-10', 'Matriculado', 0.00, TRUE, FALSE),
+('U004', 'D002', '2025-02-11', 'Matriculado', 10.00, TRUE, FALSE),
+('U011', 'D003', '2025-02-12', 'Concluído', 0.00, TRUE, FALSE),
+('U012', 'D004', '2025-02-13', 'Cancelado', 0.00, FALSE, TRUE),
+('U004', 'D005', '2025-02-14', 'Matriculado', 20.00, TRUE, FALSE),
+('U005', 'D006', '2025-02-15', 'Matriculado', 0.00, TRUE, FALSE),
+('U006', 'D007', '2025-02-16', 'Pendente', 0.00, FALSE, FALSE),
+('U008', 'D008', '2025-02-17', 'Concluído', 15.00, TRUE, FALSE),
+('U009', 'D009', '2025-02-18', 'Matriculado', 0.00, TRUE, FALSE),
+('U011', 'D010', '2025-02-19', 'Matriculado', 25.00, TRUE, FALSE),
+('U012', 'D011', '2025-02-20', 'Matriculado', 0.00, TRUE, FALSE),
+('U012', 'D012', '2025-02-21', 'Cancelado', 0.00, FALSE, TRUE),
+('U021', 'D013', '2025-02-22', 'Matriculado', 0.00, TRUE, FALSE),
+('U009', 'D014', '2025-02-23', 'Concluído', 50.00, TRUE, FALSE),
+('U008', 'D015', '2025-02-24', 'Matriculado', 0.00, TRUE, FALSE),
+('U004', 'D016', '2025-02-25', 'Matriculado', 10.00, TRUE, FALSE),
+('U005', 'D017', '2025-02-26', 'Matriculado', 0.00, TRUE, FALSE),
+('U006', 'D018', '2025-02-27', 'Pendente', 0.00, FALSE, FALSE),
+('U008', 'D019', '2025-02-28', 'Matriculado', 30.00, TRUE, FALSE),
+('U009', 'D020', '2025-03-01', 'Concluído', 0.00, TRUE, FALSE);
 
 
 INSERT INTO Disciplina_Horario VALUES
@@ -357,7 +377,7 @@ INSERT INTO Gestao VALUES
 ('G017', 'Criação de Disciplina', 'Concluído', 'U054'),
 ('G018', 'Alteração de Curso', 'Em andamento', 'U056'),
 ('G019', 'Inclusão de Avaliação', 'Concluído', 'U057'),
-('G020', 'Exclusão de Material', 'Pendente', 'U059')
+('G020', 'Exclusão de Material', 'Pendente', 'U059'),
 ('G021', 'Atribuição de docente à disciplina D001', 'Concluído', 'U030'),
 ('G022', 'Atribuição de docente à disciplina D002', 'Concluído', 'U032'),
 ('G023', 'Atribuição de docente à disciplina D003', 'Concluído', 'U033'),
@@ -403,73 +423,51 @@ INSERT INTO Infraestrutura VALUES
 ('C020', 'Sala 110', FALSE, TRUE, FALSE);
 
 
-INSERT INTO Matricula_Disciplina VALUES
-('U021', 'D001', '2025-02-10', 'Matriculado', 0.00, TRUE, FALSE),
-('U022', 'D002', '2025-02-11', 'Matriculado', 10.00, TRUE, FALSE),
-('U023', 'D003', '2025-02-12', 'Concluído', 0.00, TRUE, FALSE),
-('U024', 'D004', '2025-02-13', 'Cancelado', 0.00, FALSE, TRUE),
-('U025', 'D005', '2025-02-14', 'Matriculado', 20.00, TRUE, FALSE),
-('U026', 'D006', '2025-02-15', 'Matriculado', 0.00, TRUE, FALSE),
-('U027', 'D007', '2025-02-16', 'Pendente', 0.00, FALSE, FALSE),
-('U028', 'D008', '2025-02-17', 'Concluído', 15.00, TRUE, FALSE),
-('U029', 'D009', '2025-02-18', 'Matriculado', 0.00, TRUE, FALSE),
-('U030', 'D010', '2025-02-19', 'Matriculado', 25.00, TRUE, FALSE),
-('U031', 'D011', '2025-02-20', 'Matriculado', 0.00, TRUE, FALSE),
-('U032', 'D012', '2025-02-21', 'Cancelado', 0.00, FALSE, TRUE),
-('U033', 'D013', '2025-02-22', 'Matriculado', 0.00, TRUE, FALSE),
-('U034', 'D014', '2025-02-23', 'Concluído', 50.00, TRUE, FALSE),
-('U035', 'D015', '2025-02-24', 'Matriculado', 0.00, TRUE, FALSE),
-('U036', 'D016', '2025-02-25', 'Matriculado', 10.00, TRUE, FALSE),
-('U037', 'D017', '2025-02-26', 'Matriculado', 0.00, TRUE, FALSE),
-('U038', 'D018', '2025-02-27', 'Pendente', 0.00, FALSE, FALSE),
-('U039', 'D019', '2025-02-28', 'Matriculado', 30.00, TRUE, FALSE),
-('U040', 'D020', '2025-03-01', 'Concluído', 0.00, TRUE, FALSE);
-
 
 INSERT INTO Matricula_Gestao VALUES
 ('U021', 'D001', 'G001'),
-('U022', 'D002', 'G002'),
-('U023', 'D003', 'G003'),
-('U024', 'D004', 'G004'),
-('U025', 'D005', 'G005'),
-('U026', 'D006', 'G006'),
-('U027', 'D007', 'G007'),
-('U028', 'D008', 'G008'),
-('U029', 'D009', 'G009'),
-('U030', 'D010', 'G010'),
-('U031', 'D011', 'G011'),
-('U032', 'D012', 'G012'),
-('U033', 'D013', 'G013'),
-('U034', 'D014', 'G014'),
-('U035', 'D015', 'G015'),
-('U036', 'D016', 'G016'),
-('U037', 'D017', 'G017'),
-('U038', 'D018', 'G018'),
-('U039', 'D019', 'G019'),
-('U040', 'D020', 'G020');
+('U004', 'D002', 'G002'),
+('U011', 'D003', 'G003'),
+('U012', 'D004', 'G004'),
+('U004', 'D005', 'G005'),
+('U005', 'D006', 'G006'),
+('U006', 'D007', 'G007'),
+('U008', 'D008', 'G008'),
+('U009', 'D009', 'G009'),
+('U011', 'D010', 'G010'),
+('U012', 'D011', 'G011'),
+('U012', 'D012', 'G012'),
+('U021', 'D013', 'G013'),
+('U009', 'D014', 'G014'),
+('U008', 'D015', 'G015'),
+('U004', 'D016', 'G016'),
+('U005', 'D017', 'G017'),
+('U006', 'D018', 'G018'),
+('U008', 'D019', 'G019'),
+('U009', 'D020', 'G020');
 
 
 INSERT INTO Matricula_Nota VALUES
 ('N001', 'U021', 'D001', 'Prova 1', 8.50),
-('N002', 'U021', 'D001', 'Trabalho', 9.00),
-('N003', 'U022', 'D002', 'Prova 1', 7.00),
-('N004', 'U022', 'D002', 'Projeto Final', 8.50),
-('N005', 'U023', 'D003', 'Prova 1', 9.00),
-('N006', 'U023', 'D003', 'Prova 2', 8.50),
-('N007', 'U024', 'D004', 'Prova 1', 6.00),
-('N008', 'U024', 'D004', 'Trabalho', 7.00),
-('N009', 'U025', 'D005', 'Prova 1', 9.50),
-('N010', 'U025', 'D005', 'Projeto Final', 9.00),
-('N011', 'U026', 'D006', 'Prova 1', 8.00),
-('N012', 'U026', 'D006', 'Prova 2', 8.50),
-('N013', 'U027', 'D007', 'Trabalho', 7.50),
-('N014', 'U027', 'D007', 'Participação', 8.00),
-('N015', 'U028', 'D008', 'Prova 1', 9.00),
-('N016', 'U028', 'D008', 'Projeto Final', 9.50),
-('N017', 'U029', 'D009', 'Prova 1', 7.50),
-('N018', 'U029', 'D009', 'Trabalho', 8.00),
-('N019', 'U030', 'D010', 'Prova 1', 6.50),
-('N020', 'U030', 'D010', 'Projeto Final', 7.00);
+('N002', 'U004', 'D002', 'Trabalho', 9.00),
+('N003', 'U011', 'D003', 'Prova 1', 7.00),
+('N004', 'U012', 'D004', 'Projeto Final', 8.50),
+('N005', 'U004', 'D005', 'Prova 1', 9.00),
+('N006', 'U005', 'D006', 'Prova 2', 8.50),
+('N007', 'U006', 'D007', 'Prova 1', 6.00),
+('N008', 'U008', 'D008', 'Trabalho', 7.00),
+('N009', 'U009', 'D009', 'Prova 1', 9.50),
+('N010', 'U011', 'D010', 'Projeto Final', 9.00),
+('N011', 'U012', 'D011', 'Prova 1', 8.00),
+('N012', 'U012', 'D012', 'Prova 2', 8.50),
+('N013', 'U021', 'D013', 'Trabalho', 7.50),
+('N014', 'U009', 'D014', 'Participação', 8.00),
+('N015', 'U008', 'D015', 'Prova 1', 9.00),
+('N016', 'U004', 'D016', 'Projeto Final', 9.50),
+('N017', 'U005', 'D017', 'Prova 1', 7.50),
+('N018', 'U006', 'D018', 'Trabalho', 8.00),
+('N019', 'U008', 'D019', 'Prova 1', 6.50),
+('N020', 'U009', 'D020', 'Projeto Final', 7.00);
 
 
 
