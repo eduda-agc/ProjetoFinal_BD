@@ -19,17 +19,20 @@ sudo systemctl enable postgresql
 ```
 ___________________________________________________________________
 ## Estrutura do Repositório
-/DDL : comporta os scripts de definição de esquema (CREATE TABLE)
+DDL/ : comporta os scripts de definição de esquema (CREATE TABLE)
 Cada tabela com seu próprio script com o modelo: create_nome_da_tabela.sql
 
-/DML : comporta os scripts de inserção de dados (INSERT)
+DML/ : comporta os scripts de inserção de dados (INSERT)
 Cada tabela com seu próprio script com o modelo: inserts_nome_da_tabela.sql
+script python para gerar inserts sinteticos (generate.py)
 
-/QUERIES : Consultas SQL para o Exercício 6
+Queries/ : Consultas SQL para o Exercício 6
+ExplainQueries/ : Consultas SQL para o Exercício 6 com EXPLAIN
 
-/INDEXES : Índices criados para Exercício 7
 
-/VIEWS : Visões do Exercício 8
+Indices/ : Índices criados para Exercício 7
+
+Views/ : Visões do Exercício 8
 ___________________________________________________________________
 ## Como executar os Scripts
 
@@ -41,12 +44,12 @@ sudo -i -u postgres
 Crie o banco e as tabelas:
 ```bash
  createdb Trab2
- cd DDL/
- psql -d Trab2 -f create_tables.sql
+ psql -d Trab2 -f DDL/create_tables.sql
 ```
 Após isso, popule as tabelas:
 ```
-psql -d Trab2 -f inserts_tables.sql
+psql -d Trab2 -f DML/inserts_tables.sql
+psql -d Trab2 -f DML/dados_insert_index.sql
 ```
 
 #### Queries - Exercício 6
@@ -86,6 +89,11 @@ psql -d Trab2 -f media_aluno.sql
 psql -d Trab2 -f curso_depart_disc.sql
 ```
 
+##### 6.8 A maior mensagem recebida pelo usuário U004
+
+```
+psql -d Trab2 -f maior_mensagem.sql 
+```
 ___________________________________________________________________
 
 ## Link do vídeo de demonstração
