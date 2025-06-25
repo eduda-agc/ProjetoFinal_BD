@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 fake = faker.Faker('pt_BR')
 
 NUM_USUARIOS = 10000
-NUM_CURSOS = 20
+NUM_CURSOS = 60
 NUM_DEPARTAMENTOS = 6
 NUM_DISCIPLINAS = 100
 NUM_MATRICULAS = 50000
@@ -16,7 +16,7 @@ NUM_MENSAGENS = 10000
 
 def generate_usuarios(n):
     usuarios = []
-    for i in range(1, n + 1):
+    for i in range(61, n + 1):
         user_id = f'U{i:03}'
         nome = fake.first_name().replace("'", "''")
         sobrenome = fake.last_name().replace("'", "''")
@@ -49,7 +49,7 @@ def generate_departamentos(n, professores):
 
 def generate_cursos(n, departamentos):
     cursos = []
-    for i in range(1, n + 1):
+    for i in range(21, n + 1):
         codigo = f'C{i:03}'
         nome = f"Curso de {fake.bs()[:34]}".replace("'", "''")
         nivel_ensino = random.choice(['Graduação', 'Pós-Graduação'])
@@ -68,7 +68,7 @@ def generate_cursos(n, departamentos):
 
 def generate_disciplinas(n, cursos):
     disciplinas = []
-    for i in range(1, n + 1):
+    for i in range(21, n + 1):
         codigo = f'D{i:03}'
         nome = f'Disciplina de {fake.job()[:34]}'.replace("'", "''")
         limite_vagas = random.randint(20, 50)
@@ -231,7 +231,7 @@ with open("dados_insert_index.sql", "w", encoding="utf-8") as f:
             avaliacoes_records.add((aluno_id, prof_id))
 
     # Enviar_Aviso
-    for i in range(NUM_AVISOS):
+    for i in range(21, NUM_AVISOS):
         aviso_id = f'A{i:03}'
         texto = fake.sentence(nb_words=2).replace("'", "''")
         timestamp = (datetime.now() - timedelta(days=random.randint(1, 30))).strftime('%Y-%m-%d %H:%M:%S')
